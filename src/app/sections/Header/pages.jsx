@@ -33,28 +33,20 @@ export default function Header() {
         isSticky ? "fixed top-0 left-0 w-full z-50 bg-white shadow-md" : "relative"
       } transition-all duration-300`}
     >
-      <div className="container mx-auto px-4 md:px-6 py-2 flex justify-between items-center relative">
-        <div className="absolute h-full w-px bg-black left-24"></div>
+      <div className="container mx-auto px-4 md:px-6 py-2 flex justify-between items-center">
         {/* v_hd text */}
-        <div className="flex items-center relative z-10 left-4">
-          <h1 className="text-xl md:text-2xl" >v_hd</h1>
+        <div className="flex items-center">
+          <h1 className="text-xl md:text-2xl">v_hd</h1>
         </div>
-        <div className="absolute h-full w-px bg-black left-8"></div>
-      
 
         {/* Menu toggle button */}
-        <div className="absolute h-full w-px bg-black right-24"></div>
         <button
           onClick={toggleMenu}
-          className="relative z-10 right-4 flex items-center text-xl border px-4 py-2 rounded "
+          className="flex items-center text-xl border px-4 py-2 rounded"
         >
           <span>{isMenuOpen ? "✖" : "☰"}</span>
         </button>
-        <div className="absolute h-full w-px bg-black right-8"></div>
       </div>
-
-      {/* Black horizontal line below the header */}
-      <div className="w-full h-px bg-black"></div>
 
       {/* Dropdown menu */}
       {isMenuOpen && (

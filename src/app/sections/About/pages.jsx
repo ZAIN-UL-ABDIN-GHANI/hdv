@@ -14,7 +14,7 @@ const AboutSection = () => {
             _ About me
           </h2>
           <div className="w-full h-px bg-gray-300"></div>
-          <p className="text-sm md:text-base leading-relaxed text-white">
+          <p className="text-sm md:text-base leading-relaxed text-black bg-white">
             As a passionate interior designer, I am a <br />
             devotee of minimalism and spatial <br />
             harmony. I believe that sleek design not <br />

@@ -8,10 +8,16 @@ export default function BlogSection() {
         <span className="h-2 w-2 rounded-full bg-black"></span>
       </div>
 
-      {/* Footer Text */}
-      <div className="mt-8 text-center text-xs text-gray-600 tracking-wide">
+      
+       {/* Footer */}
+       <footer className="left-0 w-full mt-10 bg-white text-black py-2">
+        <div className="text-center text-sm uppercase tracking-wider">
         VIKTÓRIA RÉTFALVI © 2025 ALL RIGHTS RESERVED.
-      </div>
+        </div>
+      </footer>
+      
+      
+    
     </section>
   );
 }
