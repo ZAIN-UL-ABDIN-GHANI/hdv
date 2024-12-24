@@ -10,11 +10,7 @@ export default function BlogSection() {
 
       
        {/* Footer */}
-       <footer className="left-0 w-full mt-10 bg-white text-black py-2">
-        <div className="text-center text-sm uppercase tracking-wider">
-        VIKTÓRIA RÉTFALVI © 2025 ALL RIGHTS RESERVED.
-        </div>
-      </footer>
+   
       
       
     

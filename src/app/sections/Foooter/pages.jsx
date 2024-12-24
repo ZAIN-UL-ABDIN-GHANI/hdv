@@ -1,19 +1,64 @@
 export default function Footer() {
   return (
-    <footer className="bg-black text-white py-8">
+    <footer className="bg-white text-white py-4 ">
+       <div className="text-center  text-black text-sm uppercase tracking-wider">
+        VIKTÓRIA RÉTFALVI © 2025 ALL RIGHTS RESERVED.
+        </div>
+      <div  className="bg-black text-white py-8">
+      
       <div className="max-w-screen-xl mx-auto px-6 md:px-12">
         {/* Top Section */}
+        
         <div className="grid grid-cols-1 md:grid-cols-4 gap-y-6 gap-x-12">
           {/* Logo and Contact */}
           <div className="space-y-4">
-            <h1 className="text-xl font-bold tracking-wide">v_hd</h1>
-            <p className="text-gray-400">
-              Take the <span className="font-bold underline">space</span> seriously.
-            </p>
-            <div className="text-sm text-gray-500 space-y-1">
+            <h1 className="text-xl tracking-wide">v_hd</h1>
+            <div className="flex flex-wrap gap-2">
+              <h1 className="text-lg md:text-xl leading-tight">Take the</h1>
+              <span className="bg-white text-black text-lg md:text-xl leading-tight px-2">
+                _space
+              </span>
+              <div className="flex flex-wrap gap-4 items-start">
+                <h1 className="text-sx md:text-sm leading-tight">seriously.</h1>
+                <div className="flex flex-col  text-xs ">
+                  <p>HOME</p>
+                  <p>VIKTORIA</p>
+                  <p>DESIGN</p>
+                </div>
+              </div>
+            </div>
+            <div className="text-sm text-white">
               <p>Viktória Rétfalvi</p>
               <p>hi@vhd.hu</p>
-              <p>+36 999 999 999</p>
+              <div className="flex justify-between items-center gap-40 w-full text-white whitespace-nowrap">
+  {/* Phone Number */}
+  <div className="w-fit">
+    <p className="text-sm">+36 999 999 999</p>
+  </div>
+
+  {/* Links */}
+  <div className="flex items-center space-x-20">
+    <a
+      href="#"
+      className="hover:text-gray-400 text-sm md:text-base pl-10"
+    >
+      _ Terms and Conditions
+    </a>
+    <a
+      href="#"
+      className="hover:text-gray-400 text-sm md:text-base"
+    >
+      _ Privacy Policy
+    </a>
+    <a
+      href="#"
+      className="hover:text-gray-400 text-sm md:text-base"
+    >
+      _ Security
+    </a>
+  </div>
+</div>
+
             </div>
           </div>
 
@@ -43,21 +88,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Section */}
-        <div className="mt-12 border-t border-gray-700 pt-6">
-          <div className="flex flex-col md:flex-row items-center justify-between text-sm text-gray-500">
-            {/* Copyright */}
-            <p className="text-center md:text-left mb-4 md:mb-0">
-              VIKTÓRIA RÉTFALVI © 2025 ALL RIGHTS RESERVED.
-            </p>
-            
-            {/* Terms Links */}
-            <div className="flex space-x-8">
-              <a href="#" className="hover:text-gray-400">_ Terms and Conditions</a>
-              <a href="#" className="hover:text-gray-400">_ Privacy Policy</a>
-              <a href="#" className="hover:text-gray-400">_ Security</a>
-            </div>
-          </div>
-        </div>
+      </div>
       </div>
     </footer>
   );
