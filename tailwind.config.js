@@ -6,7 +6,12 @@ module.exports = {
     "./src/pages/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        playfair: ['"Playfair Display"', 'serif'],
+        manrope: ['"Manrope"', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 };

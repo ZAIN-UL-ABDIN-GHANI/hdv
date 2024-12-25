@@ -7,13 +7,6 @@ export default function BlogSection() {
         <span className="h-2 w-2 rounded-full bg-black"></span>
         <span className="h-2 w-2 rounded-full bg-black"></span>
       </div>
-
-      
-       {/* Footer */}
-   
-      
-      
-    
     </section>
   );
 }

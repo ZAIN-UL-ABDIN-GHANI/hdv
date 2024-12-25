@@ -8,7 +8,7 @@ import BlogSection from "./sections/blog/pages";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-[#ECECEC]">
       <Header/>
       <Hero/>
       <Services/>
